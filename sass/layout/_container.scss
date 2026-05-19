@@ -1,0 +1,24 @@
+@use '../abstracts/abstracts' as *;
+
+
+body {
+  font-family: $primary-font;
+  max-width: $max-width-container;
+  margin: 0 auto;
+  padding-left: $container-padding;
+  padding-right: $container-padding;
+  color: $black;
+  padding-top: 15px;
+  position: relative;
+  min-height: 100%;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 35%;
+    height: 76%;
+    background-color: $cyan;
+    top: 0;
+    right: 0;
+  }
+}

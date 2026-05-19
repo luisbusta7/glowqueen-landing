@@ -1,0 +1,56 @@
+@use '../abstracts/abstracts' as *;
+
+
+
+.header {
+    position: relative;
+    z-index: 20; // El header se mantiene arriba y no queda tapado
+  
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+        font-size: 16px;
+    }
+
+    &__logo {
+        font-size: 28px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        color: $dark-blue;
+    }
+
+    &__login {
+        ul {
+            @include reset-list();
+            gap: 28px;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+        }
+
+        a {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .search img,
+        .shopping img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .shopping {
+            margin-right: 70px;
+            
+        }
+
+        .sign {
+            text-decoration: underline;
+            
+        }
+    }
+}
