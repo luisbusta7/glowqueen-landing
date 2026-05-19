@@ -1,17 +1,19 @@
-Conquerblocks CSS HW 1 - Spa & Beauty Header
+# Conquerblocks CSS HW 1 - Spa & Beauty Header
+
 CSS Homework 1 | Landing page exercise built with HTML, Sass, and Vite.
 
-Features
+## Features
 
-Semantic HTML structure
-Sass partial architecture
-CSS custom properties
-Hero section layout
-Navigation header
-Testimonial cards
+Semantic HTML structure\
+Sass partial architecture\
+CSS custom properties\
+Hero section layout\
+Navigation header\
+Testimonial cards\
+Stats cards\
 Service highlight cards
 
-Technologies
+## Technologies
 
 HTML5
 Sass
