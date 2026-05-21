@@ -15,6 +15,6 @@ Service highlight cards
 
 ## Technologies
 
-HTML5
-Sass
-Vite
+HTML5\
+Sass\
+Vite\
