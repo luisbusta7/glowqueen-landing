@@ -17,4 +17,4 @@ Service highlight cards
 
 HTML5\
 Sass\
-Vite\
+Vite
